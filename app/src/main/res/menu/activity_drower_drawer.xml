@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+       <!-- <item
+            android:id="@+id/nav_Offline"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Offline Chats" />-->
+
+        <!--<item
+            android:id="@+id/nav_Terms"
+            android:icon="@drawable/termsandcondition"
+            android:title="Terms and Condition" />-->
+
+        <item
+            android:id="@+id/nav_Privacy"
+            android:icon="@drawable/privacypolicy"
+            android:title="Privacy Policy" />
+
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/signout"
+            android:title="Logout" />
+    </group>
+</menu>

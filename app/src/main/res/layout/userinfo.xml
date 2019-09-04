@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="User Name"/>
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kaustubh"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="ID"/>
+
+        <TextView
+            android:id="@+id/tvUserID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Contact"/>
+
+        <TextView
+            android:id="@+id/tvUserContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9004096946"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Email"/>
+
+        <TextView
+            android:id="@+id/tvUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kaustubh.navale@mipl.co.in"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="IP"/>
+
+        <TextView
+            android:id="@+id/tvUserIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="192.168.0.1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Location"/>
+
+        <TextView
+            android:id="@+id/tvUserCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="From"/>
+
+        <TextView
+            android:id="@+id/tvUserFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="//mipl.co.in"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="User Agent"/>
+
+        <TextView
+            android:id="@+id/tvUserBrowser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mozilla"/>
+
+    </LinearLayout>
+</LinearLayout>

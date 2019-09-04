@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <!-- <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#005d8a">
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="Terms and Conditions For Listing"
+            android:textColor="#ffffff" />
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_margin="5dp"
+            android:layout_weight="0.9"
+            android:fadeScrollbars="false"
+            android:fillViewport="true"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_for_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="*  Maharashtra Directory will accept free listings only from companies based in Maharashtra State for this website as well as for the DVD-ROM publications. "
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="**"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="*  We shall do our best to give listings correctly but shall not be held responsible in any way for any mistake committed inadvertently. You may receive informational and verification call from our verification department."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="**"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="*  All information supplied for publication is subject to editing and may be published on the website, or on DVD-ROM, or on any other media or format deemed appropriate by Maharashtra Directory."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="**"
+                    android:textColor="#ffffff" />
+
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="*  Please type out the entry clearly to avoid mistakes. We reserve the right to make any changes in the entry."
+                    android:textColor="#000000" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="**"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="*  We have the sole right to reject or refuse to list any information, in whole or in part mentioned in the entry, without assigning any reason whatsoever."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="**"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="*  The information contained in the entry is solely the responsibility of the concerned company. The company hereby fully indemnifies Maharashtra Directory against any claim, demand etc. in this regard as and when they arise."
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_margin="10sp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8" />
+
+            <Button
+                android:id="@+id/dialogButtonOK"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.2"
+                android:background="@color/blue"
+                android:text="OK"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- <ScrollView
+         android:id="@+id/scroll"
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:layout_alignParentBottom="true"
+         >
+
+         <com.google.android.gms.ads.AdView
+             android:id="@+id/adView"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_centerHorizontal="true"
+             android:layout_alignParentBottom="true"
+             ads:adSize="BANNER"
+             ads:adUnitId="ca-app-pub-2020313496090138/1352332485">
+         </com.google.android.gms.ads.AdView>
+
+     </ScrollView>-->
+
+
+</LinearLayout>

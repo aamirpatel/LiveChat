@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "726126620907",
+    "firebase_url": "https://livechat-admin.firebaseio.com",
+    "project_id": "livechat-admin",
+    "storage_bucket": "livechat-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726126620907:android:2eed0297fb032139",
+        "android_client_info": {
+          "package_name": "mipl.livechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726126620907-oi5aocik84ikfi9697qero1nv4v7mqt6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD2YBo2W1BsNjSI1JNdcKZqDMjqiCV7jA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726126620907-oi5aocik84ikfi9697qero1nv4v7mqt6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "726126620907-koqpmpaqfakso42netjr8vu9l6po39j3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Mahatech-industrial.LiveTracker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
