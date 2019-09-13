@@ -121,8 +121,16 @@ public class FragTransfer extends Fragment {
                                     String city = chatList.getString("city");
                                     String browser = chatList.getString("uagent");
                                     String referrer = chatList.getString("referrer");
+//                                    referrer = referrer.replaceAll("/", "");
                                     String hash = chatList.getString("hash");
                                     String time = chatList.getString("time");
+
+                                    try {
+                                        String[] separated = referrer.split("/");
+                                        referrer = separated[2];
+                                    } catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
 
                                     long unixSeconds = Long.parseLong(time);
                                     Date date = new Date(unixSeconds * 1000L);
@@ -288,7 +296,7 @@ public class FragTransfer extends Fragment {
                 userViewHolder.tvListLocation.setText("Location:" + user.getCity());
                 userViewHolder.tvListTime.setText("Time:" + user.getTime());
                 userViewHolder.tvListDate.setText("Date:" + user.getDate());
-                userViewHolder.tvListDepartment.setText("Department: " + Website);
+                userViewHolder.tvListDepartment.setText("Department: " + user.getReferrer());
 
                 userViewHolder.ivListMenu.setVisibility(View.GONE);
 

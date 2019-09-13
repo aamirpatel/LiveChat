@@ -281,9 +281,7 @@ public class Drower extends AppCompatActivity
                 headers.put("Authorization", "Basic " + base64);
                 return headers;
             }
-        }
-
-        ;
+        };
 
         stringRequest.setRetryPolicy(new
 

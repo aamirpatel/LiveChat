@@ -124,9 +124,16 @@ public class FragActive extends Fragment {
                                     String last_msg_id = chatList.getString("last_msg_id");
                                     String city = chatList.getString("city");
                                     String browser = chatList.getString("uagent");
-                                    String referrer = chatList.getString("referrer");
                                     String hash = chatList.getString("hash");
                                     String time = chatList.getString("time");
+
+                                    String referrer = chatList.getString("referrer");
+                                    try {
+                                        String[] separated = referrer.split("/");
+                                        referrer = separated[2];
+                                    } catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
 
                                     long unixSeconds = Long.parseLong(time);
                                     Date date = new Date(unixSeconds * 1000L);
@@ -293,7 +300,8 @@ public class FragActive extends Fragment {
                 userViewHolder.tvListLocation.setText("Location:" + user.getCity());
                 userViewHolder.tvListTime.setText("Time:" + user.getTime());
                 userViewHolder.tvListDate.setText("Date:" + user.getDate());
-                userViewHolder.tvListDepartment.setText("Department: " + Website);
+                userViewHolder.tvListDepartment.setText("Department: " + user.getReferrer());
+//                userViewHolder.tvListDepartment.setText("Department: " + Website);
 
                 userViewHolder.llChatListCard.setOnClickListener(new View.OnClickListener() {
                     @Override
